@@ -12,7 +12,7 @@ public class ExportAssetBundles {
             
 			BuildPipeline.BuildAssetBundle(Selection.activeObject, selection, path, 
 			                               BuildAssetBundleOptions.CollectDependencies | BuildAssetBundleOptions.CompleteAssets);
-                        
+                  
             Selection.objects = selection;
 		}
 	}
